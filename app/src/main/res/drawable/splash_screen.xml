@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- res/drawable/splash_screen.xml -->
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+            <color android:color="@android:color/white" />
+        </item>
+        <item>
+            <bitmap
+                android:gravity="center"
+                android:src="@drawable/yeicon" /> <!-- Substitua "your_splash_image" pelo nome real do seu recurso de imagem -->
+        </item>
+    </layer-list>
+
+
+
+
+</selector>
